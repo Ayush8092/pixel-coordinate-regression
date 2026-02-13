@@ -1,0 +1,10 @@
+# Results & Visualizations
+
+This folder contains all training, validation, and test visualizations including:
+
+- Training loss & MAE curves  
+- Validation performance plots  
+- Test predictions vs ground truth  
+- Error distribution graphs  
+
+These plots are generated from the Jupyter notebook during model training and evaluation.
