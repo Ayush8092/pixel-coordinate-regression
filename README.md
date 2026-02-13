@@ -1,4 +1,4 @@
-# pixel-coordinate-regression
+# Pixel-Coordinate-Regression
 CNN-based supervised regression system to accurately localize a single bright pixel in 50×50 grayscale images. The project uses synthetic data generation, deep learning modeling, training visualization, and quantitative evaluation using MAE and MSE metrics.
 
 Pixel Coordinate Regression using Convolutional Neural Networks (CNN)
@@ -100,27 +100,9 @@ Robustness against noise
 The model is a CNN-based regressor that predicts continuous pixel coordinates.
 
 Architecture Summary
-Input (50×50×1)
-      ↓
-Conv2D (32 filters) + ReLU
-      ↓
-MaxPooling
-      ↓
-Conv2D (64 filters) + ReLU
-      ↓
-MaxPooling
-      ↓
-Conv2D (128 filters) + ReLU
-      ↓
-Global Average Pooling
-      ↓
-Dense (512) → ReLU → Dropout
-      ↓
-Dense (256) → ReLU → Dropout
-      ↓
-Dense (128) → ReLU
-      ↓
-Dense (2) → Sigmoid → (x,y)
+
+<img width="324" height="657" alt="image" src="https://github.com/user-attachments/assets/499f3f3e-8cbf-4332-aa0c-dee917d95c7c" />
+
 
 
 
@@ -156,11 +138,11 @@ ReduceLROnPlateau
 
 
 8.Model Performance
+
 Final Metrics
-Dataset	          MAE (pixels)      	  MSE	          RMSE (pixels)
-Training	          2.286	             10.313	         3.211
-Validation	        2.288	             10.503	         3.241
-Testing	            2.265	             10.008	         3.164
+
+<img width="592" height="166" alt="image" src="https://github.com/user-attachments/assets/5521d67f-4e2b-4e49-ab04-7ccf1990d5b2" />
+
 
 
 Interpretation
