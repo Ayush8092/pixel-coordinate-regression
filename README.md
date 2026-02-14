@@ -9,7 +9,7 @@ This project implements a deep learning-based pixel localization system that pre
 
 The task is formulated as a supervised regression problem, where the model learns a direct mapping from image pixel values to continuous coordinate outputs.
 
-A synthetic dataset is generated to ensure precise ground truth labeling, controlled experimentation, and reproducibility.
+A synthetic dataset is generated to ensure precise ground truth labeling, controlled experimentation and reproducibility.
 
 
 2. Objectives
