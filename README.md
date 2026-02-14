@@ -1,5 +1,5 @@
 # Pixel-Coordinate-Regression
-CNN-based supervised regression system to accurately localize a single bright pixel in 50×50 grayscale images. The project uses synthetic data generation, deep learning modeling, training visualization, and quantitative evaluation using MAE and MSE metrics.
+CNN based supervised regression system to accurately localize a single bright pixel in 50×50 grayscale images. The project uses synthetic data generation, deep learning modeling, training visualization, and quantitative evaluation using MAE and MSE metrics.
 
 Pixel Coordinate Regression using Convolutional Neural Networks (CNN)
 
